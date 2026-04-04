@@ -1,0 +1,31 @@
+
+KNN PREDICTION QUALITY REPORT
+================================
+
+Dataset Overview:
+- Total records: 98,973
+- ZIP codes imputed: 12,383 (12.5%)
+- Townships imputed: 31
+
+ZIP Code Predictions:
+- Mean confidence: 1.000
+- Median confidence: 1.000
+- High confidence (>0.7): 12,383 (100.0%)
+- Medium confidence (0.4-0.7): 0 (0.0%)
+- Low confidence (<0.4): 0 (0.0%)
+
+Township Predictions:
+- Mean confidence: 1.0
+- Validation accuracy: 0.953
+
+Validation Results:
+- ZIP model accuracy: 0.981
+- Township model accuracy: 0.953
+
+Overall Assessment: 
+The KNN imputation has successfully filled missing values with reasonable 
+confidence scores. High-confidence predictions (>0.7) can be trusted for 
+modeling. Low-confidence predictions should be reviewed or flagged in 
+downstream analysis.
+
+Generated: 2026-04-03 17:14:59.004543
